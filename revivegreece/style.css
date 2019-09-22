@@ -1,0 +1,109 @@
+/*
+Theme Name: Revive Greece 1
+Theme URI: https://revive.gr
+Author: Revive Greece 1
+Author URI: https://revive.gr
+Description: Revive Greece 1
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+body {
+background: #F9EBEA; 
+text-align: justify;
+color: black; 
+}
+
+.header-container {background-color: #A93226; 
+  max-width: 1024px;
+  margin: auto;
+  padding: 0.67em 0;
+
+}
+   
+
+header h1 {padding-left: 10px;
+color: white;}
+
+.header-container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: inline-block;
+  background-color: #641E16;}
+
+.main-navigation li {
+    float: left;}
+
+.main-navigation li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.main-navigation li a:hover {
+  background-color: #CD6155;
+}
+
+.container {background: white;
+    border: 4px solid grey;
+   
+    color: black;
+}
+.main-container {background-color: beige;
+}
+
+h4  {padding-left: 12px;
+color: white;}
+
+
+.main-navigation li :hover {
+  background-color: rgb(230, 144, 144);
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+caption {display:none;}
+
+.screen-reader-text {display: none;}
+
+.content  a  {
+  background-color: lightcoral;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+  a:hover, a:active {
+  background-color: black;
+}
+.content img  {width:40% ; margin-right:15px; margin-bottom: 15px; float: left;}  
+.content {padding-bottom: 50px; line-height: 1.2; margin: 2px;}
+
+
+
+.sidebar1 {
+  
+    float: right;
+    color: black;
+}
+
+aside ul {list-style: none;}
+#wp-calendar { padding-top: 15px; 
+text-decoration: none;}
+
+#recent-posts-2  ul {list-style-type: square; }
+#recent-posts-2  a {color: black; background-color: transparent; }
+
+    
+.footer-container { background-color: #A93226;
+padding-top: 8px;
+padding-bottom: 8px;
+color: black;}
+

@@ -1,0 +1,66 @@
+
+
+
+    .header-container {
+        max-width: 1024px;
+        margin: auto;
+        padding: 0.67em 0;
+    }
+
+        .header-container h1 {
+            margin: 0 0 0.67em 0;
+        }
+
+.main-container {
+    max-width: 1024px;
+    margin:  auto;
+}
+
+main {
+    float: left;
+    width: 70%;
+}
+
+aside {
+    float: left;
+    width: 30%;
+}
+#wrapper {
+ 
+    max-width: 900px;
+     
+    width: 100%
+     
+    }
+@media only screen and (max-width: 500px) {
+ 
+    .content {
+        float: none;
+        display: block;
+        width: 100%;
+         padding-right: 7.5%;;
+    }
+    .site-title, h1 {
+        font-size: 22px;
+    }
+    
+    .sidebar {
+        float: none;
+        display: block;
+        width: 22.5%;
+    }
+   
+}
+   
+    
+        
+footer {
+    clear: both;
+    background: lightgray;
+}
+
+    .footer-container {
+        max-width: 1024px;
+        margin: auto;
+        padding: 0.67em 0;
+    }
